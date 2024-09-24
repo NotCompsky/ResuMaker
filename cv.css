@@ -1,0 +1,175 @@
+:root {
+	--maincolour: #16668d;
+}
+@font-face {
+	font-family: "Mystery Font";
+	src: url('fonts/cmunss.otf');
+}
+@font-face {
+	font-family: "Mystery Font";
+	src: url('fonts/cmunbmr.otf');
+	font-weight: lighter;
+}
+@font-face {
+	font-family: "Mystery Font";
+	src: url('fonts/cmunsx.otf');
+	font-weight: bold;
+}
+@font-face {
+	font-family: "Mystery Font";
+	src: url('fonts/cmunsi.otf');
+	font-style: italic;
+}
+@font-face {
+	font-family: "Mystery Font";
+	src: url('fonts/cmunbxo.otf');
+	font-weight: bold;
+	font-style: italic;
+}
+body {
+	font-family: "Mystery Font";
+	font-size:14.5px;
+}
+
+
+@page {
+	size: A4 portrait;
+}
+* {
+	margin:0;
+	padding:0;
+}
+/*body {
+	width:100vw;
+	height:141.428571429vw; /* A4 is 210x297 mm /
+}*/
+body {
+	height:297mm;
+	width:210mm;
+	margin-left:auto;
+	margin-right:auto;
+	transform: translateX(0); /* Trick to set position:absolute relative to this */
+}
+
+.alignright {
+	float:right;
+	/*transform: translateX(-2.5em); /* NOTE: If within <ul> with non-zero padding, might be required. Other kinds of elements overflow too, e.g. <li> elements with long contents. So it isn't caused by "float:right" but by <ul>'s padding. */
+}
+
+.largefirstchar::first-letter {
+	font-size:1.2em;
+}
+.largefirstchar {
+	display: inline-block; /* To make ::first-letter work (it only works with block and inline-block) */
+	text-transform:uppercase;
+}
+ul {
+	margin-left:1em;
+}
+
+#lcol {
+	position:absolute;
+	width:70mm;
+	left:0;
+}
+#rcol {
+	position:absolute;
+	width:125mm; /* NOTE: Account for "ul{margin-left}" value */
+	left:80mm;
+}
+.entry1 {
+	margin-top:1em;
+}
+
+
+#rcol > li {
+	position: relative;
+	list-style-type: none;
+}
+#rcol > li::before {
+	background: #aaa;
+	opacity: 1.0;
+	content: "";
+	position: absolute;
+	top: 1em;
+	left: -1.1em;
+	width: 0.15em;
+	height: 100%;
+}
+#rcol > li::after {
+	/*border: 0.2em solid green;*/
+	border-radius: 100%;
+	content: "";
+	position: absolute;
+}
+#rcol > li.entry1::after {
+	background:#000;
+	top: 0.6em;
+	left: -1.5em;
+	width: 1em;
+	height: 1em;
+}
+#rcol > li.entry2::after {
+	background:#fff;
+	border: 0.1em solid #000;
+	top: 0.3em;
+	left: -1.45em;
+	width: 0.7em;
+	height: 0.7em;
+}
+
+.contact_icon {
+	width:1.5em;
+	height:1.5em;
+}
+.date {
+	font-style: italic;
+	font-weight:lighter;
+	color: #888;
+}
+.location {
+	color: var(--maincolour);
+	font-style: italic;
+	font-weight:lighter;
+}
+#title {
+	text-align: center;
+	font-size:3em;
+	font-weight: normal;
+}
+#subtitle {
+	text-align: center;
+	font-size:1.19em;
+	font-weight: bold;
+	color: var(--maincolour);
+}
+#surname {
+	font-weight: bold;
+}
+.hh2 {
+	font-size: 1.2em;
+	font-weight: bold;
+}
+.boxcontainer {
+	display:flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.box {
+	border:0.5mm solid #aaa;
+	border-radius: 2mm;
+	width:15mm;
+	text-align: center;
+	width:30%;
+	font-size: 0.9em;
+	color: #444;
+	padding-top:5px;
+	margin-bottom:8px;
+}
+.smallertext {
+	font-size: 0.8em;
+}
+/*
+•
+⋅
+*/
