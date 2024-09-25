@@ -8,141 +8,143 @@ sections:
     subtitle: Soylent Engineer ⋅ Backend
     uppercase_and_big_letters: true
   - p:
-    - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.
-- id: lcol
-  child_class: entry1
+      - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.
+- id: middle
   children:
-    -   title: Contact
-        children:
-        - img: location.svg
-          imgclass: contact_icon
-          right: AB1 2CD, Londinium, GB
-        - img: email.svg
-          imgclass: contact_icon
-          right: john.smith@mail.gov.uk
-        - img: phone.svg
-          imgclass: contact_icon
-          right: (+44) 0 00 00 00 00
-    -   title: Skills
-        children:
-        - smalltitle: Programming Languages
-          boxes:
-          - C++
-          - Python
-          - Rust
-        - smalltitle: Python Stack
-          boxes:
-          - NumPy
-          - SciPy
-          - MedPy
-        - smalltitle: Databases
-          boxes:
-          - MySQL
-          - SQLite
-          - DonKey
-        - smalltitle: IDEs
-          boxes:
-          - Visual Studio
-          - Eclipse
-          - PyCharm
-          - Notepad++
-        - smalltitle: Tools
-          boxes:
-          - Git
-          - Bash
-          - Docker
-        - smalltitle: Misc
-          boxes:
-          - Snore
-          - Scraping
-          - Security
-        - smalltitle: Languages
-          p: English (native), Italian (sign language only)
-    -   title: Phobias
-        children:
-        - img: anger.svg
-          imgclass: contact_icon
-          right: Drama
-        - img: badminton.svg
-          imgclass: contact_icon
-          right: Deadlines
-        - img: book.svg
-          imgclass: contact_icon
-          right: Documentation
-- id: rcol
-  stylised_dots:
-    -   title: Experience
-        subtitle_class: companyname_word
-        right_class: location
-        right2_class: date
-        stylised_dots:
-            -   smalltitle: Soylent Engineer
-                right: Londinium, UK
-                subtitle: World Domination Industries
-                right2: Dec. 2022 - PRESENT
-                dots:
-                - p: Set ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+  - id: lcol
+    child_class: entry1
+    children:
+      -   title: Contact
+          children:
+          - img: location.svg
+            imgclass: contact_icon
+            right: AB1 2CD, Londinium, GB
+          - img: email.svg
+            imgclass: contact_icon
+            right: john.smith@mail.gov.uk
+          - img: phone.svg
+            imgclass: contact_icon
+            right: (+44) 0 00 00 00 00
+      -   title: Skills
+          children:
+          - smalltitle: Programming Languages
+            boxes:
+            - C++
+            - Python
+            - Rust
+          - smalltitle: Python Stack
+            boxes:
+            - NumPy
+            - SciPy
+            - MedPy
+          - smalltitle: Databases
+            boxes:
+            - MySQL
+            - SQLite
+            - DonKey
+          - smalltitle: IDEs
+            boxes:
+            - Visual Studio
+            - Eclipse
+            - PyCharm
+            - Notepad++
+          - smalltitle: Tools
+            boxes:
+            - Git
+            - Bash
+            - Docker
+          - smalltitle: Misc
+            boxes:
+            - Snore
+            - Scraping
+            - Security
+          - smalltitle: Languages
+            p: English (native), Italian (sign language only)
+      -   title: Phobias
+          children:
+          - img: anger.svg
+            imgclass: contact_icon
+            right: Drama
+          - img: badminton.svg
+            imgclass: contact_icon
+            right: Deadlines
+          - img: book.svg
+            imgclass: contact_icon
+            right: Documentation
+  - id: rcol
+    stylised_dots:
+      -   title: Experience
+          subtitle_class: companyname_word
+          right_class: location
+          right2_class: date
+          stylised_dots:
+              -   smalltitle: Soylent Engineer
+                  right: Londinium, UK
+                  subtitle: World Domination Industries
+                  right2: Dec. 2022 - PRESENT
                   dots:
-                    - p: Doloremque laudantium, totam rem aperiam, eaque ipsa
-                    - p: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-                - p: Enim ipsam voluptatem quia voluptas sit aspernatur
+                  - p: Set ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+                    dots:
+                      - p: Doloremque laudantium, totam rem aperiam, eaque ipsa
+                      - p: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                  - p: Enim ipsam voluptatem quia voluptas sit aspernatur
+                    dots:
+                      - p: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                      - p: Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+                  - p: Responsible of the main backend component handling of the ML data pipeline
+                    dots:
+                      - p: Exercitationem ullam corporis suscipit laboriosam, nisi
+                      - p: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                      - p: Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+                  - p: Qui dolorem ipsum quia dolor sit amet
+                    dots:
+                      - p: Consectetur, adipisci velit, sed quia non numquam eius modi tempora
+                      - p: Exercitationem ullam corporis suscipit laboriosam, nisi
+              -   smalltitle: Intern - Computer Stuff
+                  right: Isle of Dogs, UK
+                  subtitle: Ransomware Creation Inc.
+                  right2: Jan. 2022 - Aug. 2022
                   dots:
-                    - p: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-                    - p: Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
-                - p: Responsible of the main backend component handling of the ML data pipeline
+                  - p: Exercitationem ullam corporis suscipit laboriosam, nisi
+                  - p: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                  - p: Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+              -   smalltitle: Laboratory Intern
+                  right: Tower of London, UK
+                  subtitle: Non Ethical Industries
+                  right2: Jun. 2021 - Jul. 2021
                   dots:
-                    - p: Exercitationem ullam corporis suscipit laboriosam, nisi
-                    - p: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-                    - p: Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
-                - p: Qui dolorem ipsum quia dolor sit amet
-                  dots:
-                    - p: Consectetur, adipisci velit, sed quia non numquam eius modi tempora
-                    - p: Exercitationem ullam corporis suscipit laboriosam, nisi
-            -   smalltitle: Intern - Computer Stuff
-                right: Isle of Dogs, UK
-                subtitle: Ransomware Creation Inc.
-                right2: Jan. 2022 - Aug. 2022
-                dots:
-                - p: Exercitationem ullam corporis suscipit laboriosam, nisi
-                - p: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-                - p: Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
-            -   smalltitle: Laboratory Intern
-                right: Tower of London, UK
-                subtitle: Non Ethical Industries
-                right2: Jun. 2021 - Jul. 2021
-                dots:
-                - p: Responsible for the allocation of research subjects to the WMD division
-                - p: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-                - p: Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
-    -   title: Education
-        subtitle_class: smallertext
-        right_class: location
-        right2_class: date
-        stylised_dots:
-        -   smalltitle: University of Life
-            right: Smogton, Scotland
-            subtitle: PhD IN Supreme Evil (Dropped Out)
-            right2: Sept. 2021 - Sept. 2022
-            p: Exercitationem ullam corporis suscipit laboriosam, nisi
-        -   smalltitle: University of Laugh
-            right: Frankfurt, Germany
-            subtitle: Master's Degree IN Wrongdoing
-            right2: Sept. 2020 - June 2021
-            p: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-        -   smalltitle: University of Love
-            right: Rotterdam, Netherlands
-            subtitle: Bachelor's Degree IN Malevolence
-            right2: Sept. 2017 - June 2020
-            p: Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
-    -   title: Projects
-        right_class: date
-        children:
-        -   smalltitle: Advanced Interrogation Method Testing
-            right: 3 months - 2022
-            p: Successfully developed new exciting tools
-        -   smalltitle: Organic Energy Production
-            right: 3 months - 2022
-            p: Countering high energy costs by farming humans
-        -   smalltitle: Estate Agent Manufacturing
-            right: 4 months - 2021
-            p: Supervised task, developed human-like skin for robots
+                  - p: Responsible for the allocation of research subjects to the WMD division
+                  - p: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                  - p: Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+      -   title: Education
+          subtitle_class: smallertext
+          right_class: location
+          right2_class: date
+          stylised_dots:
+          -   smalltitle: University of Life
+              right: Smogton, Scotland
+              subtitle: PhD IN Supreme Evil (Dropped Out)
+              right2: Sept. 2021 - Sept. 2022
+              p: Exercitationem ullam corporis suscipit laboriosam, nisi
+          -   smalltitle: University of Laugh
+              right: Frankfurt, Germany
+              subtitle: Master's Degree IN Wrongdoing
+              right2: Sept. 2020 - June 2021
+              p: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+          -   smalltitle: University of Love
+              right: Rotterdam, Netherlands
+              subtitle: Bachelor's Degree IN Malevolence
+              right2: Sept. 2017 - June 2020
+              p: Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+      -   title: Projects
+          right_class: date
+          children:
+          -   smalltitle: Advanced Interrogation Method Testing
+              right: 3 months - 2022
+              p: Successfully developed new exciting tools
+          -   smalltitle: Organic Energy Production
+              right: 3 months - 2022
+              p: Countering high energy costs by farming humans
+          -   smalltitle: Estate Agent Manufacturing
+              right: 4 months - 2021
+              p: Supervised task, developed human-like skin for robots

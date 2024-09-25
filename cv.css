@@ -52,7 +52,8 @@ body {
 }
 
 .alignright {
-	float:right;
+	position:absolute;
+	right:0;
 	/*transform: translateX(-2.5em); /* NOTE: If within <ul> with non-zero padding, might be required. Other kinds of elements overflow too, e.g. <li> elements with long contents. So it isn't caused by "float:right" but by <ul>'s padding. */
 }
 
@@ -76,6 +77,9 @@ ul {
 	position:absolute;
 	width:125mm; /* NOTE: Account for "ul{margin-left}" value */
 	left:80mm;
+}
+#middle {
+	margin-top:-1em; /* TODO: Figure out why .entry1{margin-bottom:1em;} causes issues */
 }
 .entry1 {
 	margin-top:1em;
@@ -152,7 +156,7 @@ ul {
 }
 .boxcontainer {
 	display:flex;
-	justify-content: space-between;
+	justify-content: left;
 	flex-wrap: wrap;
 }
 .box {
@@ -165,6 +169,7 @@ ul {
 	color: #444;
 	padding-top:5px;
 	margin-bottom:8px;
+	margin-right:1.6mm;
 }
 .smallertext {
 	font-size: 0.8em;
